@@ -1,12 +1,18 @@
+.container{
+    display:flex;
+    justify-content: space-between; align-items:center;
+    padding:6px;
+}
+
 #logo{
     padding:0 10px;
     font-family:Arial, Helvetica, sans-serif;
     color:darkblue
 }
 
-
 #navbar li{
-    display:inline-block
+    display:inline-block;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #navbar a{
@@ -26,4 +32,21 @@ h2{
 
 p{
     font-family:Arial, Helvetica, sans-serif
+}
+
+.flex-container{
+    display:flex;
+    border-width:2px;
+    border-radius:4px;
+}
+
+.flex-container > div{
+    background-color:#ffffff;
+    margin:10px;
+    padding:10px;
+    align-items: normal;
+}
+
+ul{
+    font-family:Arial, Helvetica, sans-serif;
 }
