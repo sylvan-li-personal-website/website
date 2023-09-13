@@ -1,0 +1,29 @@
+#logo{
+    padding:0 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkblue
+}
+
+
+#navbar li{
+    display:inline-block
+}
+
+#navbar a{
+    text-decoration:none;
+    font-size:18px;
+    padding-right:15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif
+}
